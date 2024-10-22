@@ -50,4 +50,10 @@ class PruebaCalculadora(unittest.TestCase):
         with self.assertRaises(NoSePuedeCalcular):
             self.calculadora.desviacion_estandar(elementos)
 
+    def test_desviacion_unSoloElemento_retornaCero(self):
+        elementos = [5]
+        resultado = self.calculadora.desviacion_estandar(elementos)
+        self.assertEqual(resultado, 0)
+
+
 
