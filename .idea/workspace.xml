@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f55b963-2a69-4c19-975d-da37a0aaf5d3" name="Changes" comment="Caso con varios elementos en la lista (rojo)" />
+    <list default="true" id="6f55b963-2a69-4c19-975d-da37a0aaf5d3" name="Changes" comment="Caso con elementos positivos y negativos (rojo)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729572159632</updated>
-      <workItem from="1729572166306" duration="3480000" />
+      <workItem from="1729572166306" duration="3808000" />
     </task>
     <task id="LOCAL-00001" summary="Caso sin elementos en la lista con excepeción NoSePuedeCalcular (rojo)">
       <option name="closed" value="true" />
@@ -155,7 +155,39 @@
       <option name="project" value="LOCAL" />
       <updated>1729575667837</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Caso con varios elementos en la lista (verde)&#10;Cualquier validación que sea necesaria en otros métodos (como para la desviación estándar) se puede reutilizar sin duplicar código">
+      <option name="closed" value="true" />
+      <created>1729575761511</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729575761511</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Caso con varios elementos que son ceros (rojo)">
+      <option name="closed" value="true" />
+      <created>1729575894736</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729575894736</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Caso con varios elementos que son ceros (verde)&#10;La operación de promedio está más encapsulada y lista para modificaciones futuras sin afectar directamente la lógica principal.">
+      <option name="closed" value="true" />
+      <created>1729575954101</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729575954101</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Caso con elementos positivos y negativos (rojo)">
+      <option name="closed" value="true" />
+      <created>1729576001063</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729576001063</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,10 +200,25 @@
     <MESSAGE value="Caso con un solo elemento en la lista (verde)" />
     <MESSAGE value="Caso con dos elementos en la lista: la lógica de la función sigue funcionando correctamente para este caso, así que no se necesitan cambios (verde)" />
     <MESSAGE value="Caso con varios elementos en la lista (rojo)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Caso con varios elementos en la lista (rojo)" />
+    <MESSAGE value="Caso con varios elementos en la lista (verde)&#10;Cualquier validación que sea necesaria en otros métodos (como para la desviación estándar) se puede reutilizar sin duplicar código" />
+    <MESSAGE value="Caso con varios elementos que son ceros (rojo)" />
+    <MESSAGE value="Caso con varios elementos que son ceros (verde)&#10;La operación de promedio está más encapsulada y lista para modificaciones futuras sin afectar directamente la lógica principal." />
+    <MESSAGE value="Caso con elementos positivos y negativos (rojo)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Caso con elementos positivos y negativos (rojo)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/tests/Test_operaciones.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DesviacEst$operaciones.coverage" NAME="operaciones Coverage Results" MODIFIED="1729573829662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/logica" />
-    <SUITE FILE_PATH="coverage/DesviacEst$.coverage" NAME=" Coverage Results" MODIFIED="1729575361535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
+    <SUITE FILE_PATH="coverage/DesviacEst$operaciones.coverage" NAME="operaciones Coverage Results" MODIFIED="1729575710371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/logica" />
+    <SUITE FILE_PATH="coverage/DesviacEst$.coverage" NAME=" Coverage Results" MODIFIED="1729575984825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
   </component>
 </project>

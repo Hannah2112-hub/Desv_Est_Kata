@@ -6,9 +6,8 @@ class Calculadora:
         if not elementos:
             raise NoSePuedeCalcular("No se puede calcular la media de una lista vacía")
 
-        for elemento in elementos:
-            if not isinstance(elemento, (int, float)):
-                raise TypeError("Todos los elementos deben ser numéricos")
+        if not all(isinstance(elemento, (int, float)) for elemento in elementos):
+            raise TypeError("Todos los elementos deben ser numéricos")
 
     def _calcular_promedio(self, elementos):
         return sum(elementos) / len(elementos)
