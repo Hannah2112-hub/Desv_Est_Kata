@@ -19,3 +19,8 @@ class PruebaCalculadora(unittest.TestCase):
         elementos = [10]
         resultado = self.calculadora.media(elementos)
         self.assertEqual(resultado, 10)
+
+    def test_media_dosElementos_retornaPromedio(self):
+        elementos = [10, 20]
+        resultado = self.calculadora.media(elementos)
+        self.assertEqual(resultado, 15)

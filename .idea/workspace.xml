@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f55b963-2a69-4c19-975d-da37a0aaf5d3" name="Changes" comment="Caso sin elementos en la lista con excepción NoSePuedeCalcular (verde)">
-      <change beforePath="$PROJECT_DIR$/src/tests/Test_operaciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Test_operaciones.py" afterDir="false" />
-    </list>
+    <list default="true" id="6f55b963-2a69-4c19-975d-da37a0aaf5d3" name="Changes" comment="Caso con un solo elemento en la lista (verde)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729572159632</updated>
-      <workItem from="1729572166306" duration="2528000" />
+      <workItem from="1729572166306" duration="2864000" />
     </task>
     <task id="LOCAL-00001" summary="Caso sin elementos en la lista con excepeción NoSePuedeCalcular (rojo)">
       <option name="closed" value="true" />
@@ -125,7 +123,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729574626126</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Caso con un solo elemento en la lista (rojo)">
+      <option name="closed" value="true" />
+      <created>1729574815498</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729574815498</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Caso con un solo elemento en la lista (verde)">
+      <option name="closed" value="true" />
+      <created>1729574868833</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729574868833</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,10 +148,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Caso sin elementos en la lista con excepeción NoSePuedeCalcular (rojo)" />
     <MESSAGE value="Caso sin elementos en la lista con excepción NoSePuedeCalcular (verde)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Caso sin elementos en la lista con excepción NoSePuedeCalcular (verde)" />
+    <MESSAGE value="Caso con un solo elemento en la lista (rojo)" />
+    <MESSAGE value="Caso con un solo elemento en la lista (verde)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Caso con un solo elemento en la lista (verde)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DesviacEst$operaciones.coverage" NAME="operaciones Coverage Results" MODIFIED="1729573829662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/logica" />
-    <SUITE FILE_PATH="coverage/DesviacEst$.coverage" NAME=" Coverage Results" MODIFIED="1729574710900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
+    <SUITE FILE_PATH="coverage/DesviacEst$.coverage" NAME=" Coverage Results" MODIFIED="1729574855384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
   </component>
 </project>
