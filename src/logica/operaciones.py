@@ -9,6 +9,10 @@ class Calculadora:
         if not all(isinstance(elemento, (int, float)) for elemento in elementos):
             raise TypeError("Todos los elementos deben ser numéricos")
 
+    def desviacion_estandar(self, elementos):
+        self.validar_elementos(elementos)
+        pass
+
     def _calcular_promedio(self, elementos):
         return sum(elementos) / len(elementos)
 
