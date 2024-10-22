@@ -75,5 +75,11 @@ class PruebaCalculadora(unittest.TestCase):
         resultado = self.calculadora.desviacion_estandar(elementos)
         self.assertAlmostEqual(resultado, 1.5811, places=4)
 
+    def test_desviacion_elementosNoNumericos_lanzaTypeError(self):
+        elementos = [1, 'a', 3]
+        with self.assertRaises(TypeError):
+            self.calculadora.desviacion_estandar(elementos)
+
+
 
 
