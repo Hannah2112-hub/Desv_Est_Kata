@@ -39,3 +39,9 @@ class PruebaCalculadora(unittest.TestCase):
         elementos = [-1, 1, -2, 2]
         resultado = self.calculadora.media(elementos)
         self.assertEqual(resultado, 0)
+
+    def test_media_elementosNoNumericos_lanzaTypeError(self):
+        elementos = [1, 'a', 3]
+        with self.assertRaises(TypeError):
+            self.calculadora.media(elementos)
+
