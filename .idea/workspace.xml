@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f55b963-2a69-4c19-975d-da37a0aaf5d3" name="Changes" comment="Implementada desviación estándar para un solo elemento (rojo)">
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DesviacEst.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DesviacEst.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6f55b963-2a69-4c19-975d-da37a0aaf5d3" name="Changes" comment="Cobertura de pruebas unitarias" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -244,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729576880493</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Cobertura de pruebas unitarias">
+      <option name="closed" value="true" />
+      <created>1729606829596</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1729606829596</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +268,8 @@
     <MESSAGE value="Implementada validación inicial para desviación estándar: lista vacía (rojo)" />
     <MESSAGE value="Implementada validación inicial para desviación estándar: lista vacía (verde)" />
     <MESSAGE value="Implementada desviación estándar para un solo elemento (rojo)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementada desviación estándar para un solo elemento (rojo)" />
+    <MESSAGE value="Cobertura de pruebas unitarias" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cobertura de pruebas unitarias" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
