@@ -1,6 +1,7 @@
 class NoSePuedeCalcular(Exception):
     pass
 
+
 class Calculadora:
     def validar_elementos(self, elementos):
         if not elementos:
@@ -13,6 +14,9 @@ class Calculadora:
         self.validar_elementos(elementos)
         if len(elementos) == 1:
             return 0
+        media = sum(elementos) / len(elementos)
+        varianza = sum((x - media) ** 2 for x in elementos) / len(elementos)
+        return varianza ** 0.5
 
     def _calcular_promedio(self, elementos):
         return sum(elementos) / len(elementos)
