@@ -18,7 +18,9 @@ Este proyecto es una aplicación en Python que calcula el promedio y la desviaci
    cd nombre_del_repositorio
    ```
 ##### 2. **Crea y activa un entorno virtual (opcional):**
+   ```bash
    python -m venv venv
    source venv/bin/activate  # En Linux o Mac
   .\venv\Scripts\activate   # En Windows
+   ```
 
