@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f55b963-2a69-4c19-975d-da37a0aaf5d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DesviacEst.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logica/operaciones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/Test_operaciones.py" afterDir="false" />
+    <list default="true" id="6f55b963-2a69-4c19-975d-da37a0aaf5d3" name="Changes" comment="Caso sin elementos en la lista con excepción NoSePuedeCalcular (verde)">
+      <change beforePath="$PROJECT_DIR$/src/tests/Test_operaciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Test_operaciones.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Hannah2112-hub"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Hannah2112-hub/Desv_Est_Kata.git",
+    "accountId": "4e56796b-e602-4989-99a2-d955f1b8c73b"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
@@ -94,15 +99,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729572159632</updated>
-      <workItem from="1729572166306" duration="2157000" />
+      <workItem from="1729572166306" duration="2528000" />
     </task>
+    <task id="LOCAL-00001" summary="Caso sin elementos en la lista con excepeción NoSePuedeCalcular (rojo)">
+      <option name="closed" value="true" />
+      <created>1729574448411</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729574448411</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Caso sin elementos en la lista con excepción NoSePuedeCalcular (verde)">
+      <option name="closed" value="true" />
+      <created>1729574540868</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729574540868</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Caso sin elementos en la lista con excepción NoSePuedeCalcular (verde)">
+      <option name="closed" value="true" />
+      <created>1729574626126</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729574626126</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Caso sin elementos en la lista con excepeción NoSePuedeCalcular (rojo)" />
+    <MESSAGE value="Caso sin elementos en la lista con excepción NoSePuedeCalcular (verde)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Caso sin elementos en la lista con excepción NoSePuedeCalcular (verde)" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DesviacEst$operaciones.coverage" NAME="operaciones Coverage Results" MODIFIED="1729573829662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/logica" />
-    <SUITE FILE_PATH="coverage/DesviacEst$.coverage" NAME=" Coverage Results" MODIFIED="1729573957456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
+    <SUITE FILE_PATH="coverage/DesviacEst$.coverage" NAME=" Coverage Results" MODIFIED="1729574710900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
   </component>
 </project>
