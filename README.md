@@ -35,31 +35,28 @@
   
 ### Implementar la función de desviación estándar
   #### 1. Caso sin elementos en la lista
-  Commit Rojo: Implementar la función de desviación estándar y lanzar NoSePuedeCalcular si la lista está vacía.
+  Commit Rojo: Asegurar que el error se lance correctamente al verificar una lista vacía..
   
-  Commit Verde: Asegurar que el error se lance correctamente al verificar una lista vacía.
-  
+  Commit Verde: Implementada prueba para lista vacía en la media y lógica correspondiente.
   #### 2. Caso con un solo elemento
   Commit Rojo: Añadir prueba que confirme que la desviación estándar es 0 cuando hay un solo elemento.
   
   Commit Verde: Ajustar la función para devolver 0 como desviación estándar si hay un solo elemento.
   #### 3. Caso con dos elementos
-  Commit Rojo: Implementar prueba que verifique la desviación estándar de dos números.
+  Commit Rojo: Refactorizar el código para calcular correctamente la desviación estándar con dos elementos.
   
   Commit Verde: Refactorizar el código para calcular correctamente la desviación estándar con dos elementos.
   #### 4. Caso con n elementos positivos
   Commit Rojo: Añadir prueba que valide la desviación estándar para una lista de números positivos.
   
-  Commit Verde: Ajustar la función para manejar n números positivos en el cálculo.
+  Commit Verde: Refactorización: Separada la validación de tipos en su propia función.
   #### 5. Caso con n elementos donde todos son ceros
   Commit Rojo: Crear prueba que confirme que la desviación estándar es 0 cuando todos los elementos son ceros.
   
-  Commit Verde: Asegurar que la función maneje correctamente este caso.
+  Commit Verde: Refactorización: Encapsulado el cálculo del promedio en una función privada.
   #### 6. Caso con n elementos positivos y negativos
   Commit Rojo: Implementar prueba que verifique la desviación estándar con números positivos y negativos.
   
-  Commit Verde: Refactorizar la función para calcular la desviación estándar considerando ambos tipos de números.
+  Commit Verde: Refactorización: Encapsulado el cálculo del promedio en una función privada.
   #### 7. Caso con n elementos, donde hay elementos que no son numéricos
-  Commit Rojo: Crear prueba que confirme que se lanza TypeError con elementos no numéricos.
-  
-  Commit Verde: Ajustar la función para lanzar TypeError al encontrar elementos no numéricos.
+  No hay commit Rojo ni Verde porque se mantiene la logica.
