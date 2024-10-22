@@ -45,3 +45,9 @@ class PruebaCalculadora(unittest.TestCase):
         with self.assertRaises(TypeError):
             self.calculadora.media(elementos)
 
+    def test_desviacion_elementosVacios_lanzaNoSePuedeCalcular(self):
+        elementos = []
+        with self.assertRaises(NoSePuedeCalcular):
+            self.calculadora.desviacion_estandar(elementos)
+
+
