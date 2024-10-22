@@ -34,3 +34,8 @@ class PruebaCalculadora(unittest.TestCase):
         elementos = [0, 0, 0, 0]
         resultado = self.calculadora.media(elementos)
         self.assertEqual(resultado, 0)
+
+    def test_media_elementosPositivosYNegativos_retornaPromedio(self):
+        elementos = [-1, 1, -2, 2]
+        resultado = self.calculadora.media(elementos)
+        self.assertEqual(resultado, 0)
