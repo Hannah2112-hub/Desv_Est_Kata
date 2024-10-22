@@ -21,19 +21,17 @@
   #### 4. Caso con n elementos positivos
   Commit Rojo: Implementar prueba que valide el promedio de números positivos.
   
-  Commit Verde: Ajustar la función para manejar n números positivos.
+  Commit Verde: Implementada prueba para varios elementos positivos en la media.
   #### 5. Caso con n elementos donde todos son ceros
   Commit Rojo: Añadir prueba que confirme que el promedio es cero cuando todos los elementos son ceros.
   
-  Commit Verde: Asegurar que la función maneje correctamente este caso.
+  Commit Verde: Implementada prueba para varios elementos positivos en la media.
   #### 6. Caso con n elementos positivos y negativos
   Commit Rojo: Implementar prueba que verifique el promedio con números positivos y negativos.
   
-  Commit Verde: Refactorizar la función para calcular el promedio considerando ambos tipos de números.
+  Commit Verde: Implementada prueba para elementos positivos y negativos en la media.
   #### 7. Caso con n elementos, donde hay elementos que no son numéricos
-  Commit Rojo: Crear prueba que confirme que se lanza TypeError con elementos no numéricos.
- 
-  Commit Verde: Ajustar la función para lanzar TypeError al encontrar elementos no numéricos.
+  Commit Verde: No es necesario cambiar la lógica actual.
   
 ### Implementar la función de desviación estándar
   #### 1. Caso sin elementos en la lista
