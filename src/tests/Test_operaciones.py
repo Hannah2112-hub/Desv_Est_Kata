@@ -29,3 +29,8 @@ class PruebaCalculadora(unittest.TestCase):
         elementos = [1, 2, 3, 4, 5]
         resultado = self.calculadora.media(elementos)
         self.assertEqual(resultado, 3)
+
+    def test_media_elementosCero(self):
+        elementos = [0, 0, 0, 0]
+        resultado = self.calculadora.media(elementos)
+        self.assertEqual(resultado, 0)
