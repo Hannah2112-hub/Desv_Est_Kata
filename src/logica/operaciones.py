@@ -10,6 +10,9 @@ class Calculadora:
             if not isinstance(elemento, (int, float)):
                 raise TypeError("Todos los elementos deben ser numéricos")
 
+    def _calcular_promedio(self, elementos):
+        return sum(elementos) / len(elementos)
+
     def media(self, elementos):
         self.validar_elementos(elementos)
-        return sum(elementos) / len(elementos)
+        return self._calcular_promedio(elementos)
