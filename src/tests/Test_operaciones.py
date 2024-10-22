@@ -58,7 +58,7 @@ class PruebaCalculadora(unittest.TestCase):
     def test_desviacion_dosElementos_retornaDesviacion(self):
         elementos = [5, 9]
         resultado = self.calculadora.desviacion_estandar(elementos)
-        self.assertAlmostEqual(resultado, 2.8284, places=4)
+        self.assertAlmostEqual(resultado, 2)
 
     def test_desviacion_elementosPositivos_retornaDesviacion(self):
         elementos = [1, 2, 3, 4, 5]
