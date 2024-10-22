@@ -23,4 +23,18 @@ Este proyecto es una aplicación en Python que calcula el promedio y la desviaci
    source venv/bin/activate  # En Linux o Mac
   .\venv\Scripts\activate   # En Windows
    ```
+#### Ejecución de la aplicación
+   ```python
+   from src.logica.Calculadora import Calculadora
 
+   calculadora = Calculadora()
+   promedio = calculadora.media([1, 2, 3, 4, 5])
+   desviacion = calculadora.desviacion_estandar([1, 2, 3, 4, 5])
+   print("Promedio:", promedio)
+   print("Desviación Estándar:", desviacion)
+   ```
+#### Ejecución de las Pruebas
+   ```bash
+   Copiar código
+   python -m unittest discover -s tests -p "*.py"
+   ```
