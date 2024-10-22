@@ -11,7 +11,8 @@ class Calculadora:
 
     def desviacion_estandar(self, elementos):
         self.validar_elementos(elementos)
-        pass
+        if len(elementos) == 1:
+            return 0
 
     def _calcular_promedio(self, elementos):
         return sum(elementos) / len(elementos)

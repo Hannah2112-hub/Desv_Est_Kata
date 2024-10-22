@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f55b963-2a69-4c19-975d-da37a0aaf5d3" name="Changes" comment="Caso con elementos positivos y negativos (rojo)" />
+    <list default="true" id="6f55b963-2a69-4c19-975d-da37a0aaf5d3" name="Changes" comment="Implementada desviación estándar para un solo elemento (rojo)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729572159632</updated>
-      <workItem from="1729572166306" duration="3808000" />
+      <workItem from="1729572166306" duration="4695000" />
     </task>
     <task id="LOCAL-00001" summary="Caso sin elementos en la lista con excepeción NoSePuedeCalcular (rojo)">
       <option name="closed" value="true" />
@@ -187,7 +187,47 @@
       <option name="project" value="LOCAL" />
       <updated>1729576001063</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Caso con elementos positivos y negativos (verde)&#10;La validación es más eficiente, utilizando la función all()">
+      <option name="closed" value="true" />
+      <created>1729576112091</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1729576112091</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Caso con elementos no numéricos (verde)">
+      <option name="closed" value="true" />
+      <created>1729576490005</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729576490005</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Implementada validación inicial para desviación estándar: lista vacía (rojo)">
+      <option name="closed" value="true" />
+      <created>1729576666707</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729576666707</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Implementada validación inicial para desviación estándar: lista vacía (verde)">
+      <option name="closed" value="true" />
+      <created>1729576731772</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729576731772</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Implementada desviación estándar para un solo elemento (rojo)">
+      <option name="closed" value="true" />
+      <created>1729576880493</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1729576880493</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +244,12 @@
     <MESSAGE value="Caso con varios elementos que son ceros (rojo)" />
     <MESSAGE value="Caso con varios elementos que son ceros (verde)&#10;La operación de promedio está más encapsulada y lista para modificaciones futuras sin afectar directamente la lógica principal." />
     <MESSAGE value="Caso con elementos positivos y negativos (rojo)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Caso con elementos positivos y negativos (rojo)" />
+    <MESSAGE value="Caso con elementos positivos y negativos (verde)&#10;La validación es más eficiente, utilizando la función all()" />
+    <MESSAGE value="Caso con elementos no numéricos (verde)" />
+    <MESSAGE value="Implementada validación inicial para desviación estándar: lista vacía (rojo)" />
+    <MESSAGE value="Implementada validación inicial para desviación estándar: lista vacía (verde)" />
+    <MESSAGE value="Implementada desviación estándar para un solo elemento (rojo)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementada desviación estándar para un solo elemento (rojo)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -219,6 +264,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DesviacEst$operaciones.coverage" NAME="operaciones Coverage Results" MODIFIED="1729575710371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/logica" />
-    <SUITE FILE_PATH="coverage/DesviacEst$.coverage" NAME=" Coverage Results" MODIFIED="1729575984825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
+    <SUITE FILE_PATH="coverage/DesviacEst$.coverage" NAME=" Coverage Results" MODIFIED="1729576858824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
   </component>
 </project>
